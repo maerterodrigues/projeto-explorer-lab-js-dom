@@ -53,3 +53,10 @@ body {
   display: flex;
   align-items: center;
 }
+
+.cardsSupported {
+  font-size: 1rem;
+  margin-left: 2rem;
+  text-align: left;
+  width: 100%;
+}
