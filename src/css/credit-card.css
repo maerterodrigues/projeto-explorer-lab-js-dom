@@ -15,11 +15,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 .cc-info {
   display: grid;
   gap: 1.4rem;
+  z-index: 1;
 }
 
 .cc-number {
@@ -30,6 +32,7 @@
 
   color: #e8e8e8;
   text-shadow: 0 0.12rem 0.32rem rgb(23 23 23 / 40%);
+  z-index: 1;
 }
 
 .cc-holder,
@@ -37,11 +40,13 @@
 .cc-security {
   display: grid;
   gap: 0.4rem;
+  z-index: 1;
 }
 
 .cc .label {
   font-size: 1rem;
   line-height: 1.2rem;
+  z-index: 1;
 }
 
 .cc .value {
@@ -50,18 +55,21 @@
   color: #ffffff;
   text-shadow: 0 0.25rem 0.25rem rgb(22 22 22 / 16%);
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .cc-extra {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 .cc,
 .cc-logo,
 .cc-number {
   position: relative;
+  z-index: 1;
 }
 
 .cc-bg {

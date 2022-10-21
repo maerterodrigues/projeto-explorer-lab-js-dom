@@ -20,6 +20,9 @@
 body {
   font-size: 1.6rem;
   background: #121214;
+  background-image: url("../images/bg_page.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 
   display: flex;
   place-items: center;
@@ -41,8 +44,8 @@ body {
   margin: 0 auto;
 
   padding: 2.8rem 6rem 4rem;
-  background: #202024;
-  border: 0.1rem solid #323238;
+  background: linear-gradient(74deg, rgba(55, 80, 67, 0.2), rgba(44, 44, 54, 0.6));
+  border: 0.1rem solid rgba(255, 255, 255, 0.5);
   border-radius: 0.6rem;
 }
 
